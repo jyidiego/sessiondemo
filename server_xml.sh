@@ -108,7 +108,7 @@ cat <<EOF
           /docs/cluster-howto.html  (simple how to)
           /docs/config/cluster.html (reference documentation) -->
 
-<Engine name="Catalina" defaultHost="localhost" jvmRoute="worker1">
+<Engine name="Catalina" defaultHost="localhost" jvmRoute="worker-$1">
 <Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster" channelSendOptions="8">
   <Manager className="org.apache.catalina.ha.session.DeltaManager"
     expireSessionsOnShutdown="false"
