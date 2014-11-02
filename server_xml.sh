@@ -124,7 +124,7 @@ cat <<EOF
         <Transport className="org.apache.catalina.tribes.transport.nio.PooledParallelSender"/>
       </Sender>
       <Receiver className="org.apache.catalina.tribes.transport.nio.NioReceiver"
-        address="auto" port="4000" autoBind="100"
+        address="$1" port="4000" autoBind="100"
         selectorTimeout="5000" maxThreads="6"/>
       <Interceptor className="org.apache.catalina.tribes.group.interceptors.TcpFailureDetector"/>
       <Interceptor className="org.apache.catalina.tribes.group.interceptors.MessageDispatch15Interceptor"/>
