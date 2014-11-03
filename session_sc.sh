@@ -21,13 +21,13 @@ curl -i ${AS_URL}/groups -X POST  -k \
         "maxEntities": 4,
         "metadata": {},
         "minEntities": 1,
-        "name": "sessionDemoAutoScale"
+        "name": "<scaling group name>"
     },
     "launchConfiguration": {
         "args": {
             "loadBalancers" : [{ 
-                "loadBalancerId" : 363877,
-                "port" : 8080
+                "loadBalancerId" : <loadbalancer id>,
+                "port" : <loadbalancer port for members>, 
             }],
             "server": {
                 "OS-DCF:diskConfig" : "MANUAL",
@@ -41,7 +41,7 @@ curl -i ${AS_URL}/groups -X POST  -k \
                    "uuid": "00000000-0000-0000-0000-000000000000"
                 },
                 {
-                   "uuid": ""
+                   "uuid": "<cluster network>"
                 }
                 ],
                 "imageRef": "598a4282-f14b-4e50-af4c-b3e52749d9f9",
