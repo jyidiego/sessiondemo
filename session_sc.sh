@@ -41,11 +41,11 @@ curl -i ${AS_URL}/groups -X POST  -k \
                    "uuid": "00000000-0000-0000-0000-000000000000"
                 },
                 {
-                   "uuid": "65e712db-0616-4d71-926c-47b8e8f2dfeb"
+                   "uuid": ""
                 }
                 ],
                 "imageRef": "598a4282-f14b-4e50-af4c-b3e52749d9f9",
-                "key_name" : "ansible_demo",
+                "key_name" : "",
                 "user_data" : "I2Nsb3VkLWNvbmZpZwoKcGFja2FnZV91cGdyYWRlOiB0cnVlCgpwYWNrYWdlczoKICAtIHB5dGhvbi1waXAKICAtIHB5dGhvbi1kZXYKICAtIGRvY2tlci5pbwoKcnVuY21kOgogIC0gcGlwIGluc3RhbGwgbmV0aWZhY2VzCiAgLSBzeXNjdGwgbmV0LmlwdjQuaWNtcF9lY2hvX2lnbm9yZV9icm9hZGNhc3RzPTAKICAtIGlwIHJvdXRlIGFkZCAyMjQuMC4wLjAvNCBkZXYgZXRoMgogIC0gZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS9qeWlkaWVnby9zZXNzaW9uZGVtby5naXQgL3Jvb3Qvc2Vzc2lvbmRlbW8KICAtIC9yb290L3Nlc3Npb25kZW1vL3NlcnZlcl94bWwuc2ggJCgvcm9vdC9zZXNzaW9uZGVtby9nZW5fc2VydmVyX3htbC5weSBldGgyKSA+IC9yb290L3NlcnZlci54bWwKICAtIGRvY2tlciBydW4gLWQgLXYgL3Jvb3Q6L21udCAtLW5ldD1ob3N0IGp5aWRpZWdvL3Nlc3Npb25kZW1vIC4vcnVuLnNoCg==",
                 "name": "sessionDemo"
             }
